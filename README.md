@@ -1,5 +1,7 @@
 # DF Capstone Premier League Player Sale Predictor
 My final capstone project for Digital Futures looks into Premier League Players and whether, based on their performance stats, they should be kept or sold by their club. 
+## Capstone Project Video
+https://user-images.githubusercontent.com/92789215/145447805-b9a156f4-0f1a-4532-a0cb-61b0dbe08897.mp4
 
 ## Description:
 It is a tough role for any manager in football, but sometimes, players need to be sold. If a player is underperforming, the club may need to relieve them of their duties. But how can we tell if a player is underperforming? 
@@ -8,7 +10,6 @@ By using a process known as Logistic Regression, a model can be created for mult
 The stats used for this project are those that were available in the dataset containing stats for every Premier League player in the 18/19 season. 
 
 ## Conclusions:
-
 The accuracy of the Logistic Regression Model would be identified by the Test Accuracy of the Confusion Matrix. The test accuracy was 83%; meaning that the model is accurate 83% of the time.
 The accuracy is definitely high, but higher values could be achieved by altering the Feature Columns in the Logistic Regression. However, a compromise between the P Values of the Logistic Regression and the test accuracy had to be determined. High P Values results in high multicollinearity; which should be avoided. 
 
@@ -18,5 +19,5 @@ Moreover, it should be understood that being poor statistically is not the only 
 A good example of this is the Crystal Palace player Aaron Wan-Bissaka, who was predicted by the model to be kept because he performed well, but was sold to Manchester United to gain a monetary capitalisation on his good performances. 
 
 ##
-This repository contains the Capstone Project Notebook and the Capstone Presentation. 
+This repository contains the Capstone Project Notebook and the Capstone Presentation Slides. 
 The data set used in this project can be found on https://footystats.org/c-dl.php?type=players&comp=1625
