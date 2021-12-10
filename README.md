@@ -10,8 +10,7 @@ By using a process known as Logistic Regression, a model can be created for mult
 The stats used for this project are those that were available in the dataset containing stats for every Premier League player in the 18/19 season. 
 
 ## Conclusions:
-The accuracy of the Logistic Regression Model would be identified by the Test Accuracy of the Confusion Matrix. The test accuracy was 83%; meaning that the model is accurate 83% of the time.
-The accuracy is definitely high, but higher values could be achieved by altering the Feature Columns in the Logistic Regression. However, a compromise between the P Values of the Logistic Regression and the test accuracy had to be determined. High P Values results in high multicollinearity; which should be avoided. 
+The accuracy of the Logistic Regression Model would be identified by the Test Accuracy of the Confusion Matrix. The test accuracy was 83%; meaning that the model is accurate 83% of the time. 83% is a great accuracy for this model, but it could have been improved by including other variables in the model. However, the reason that some variables were excluded is because they would have high P-Values; which is essentially the model saying that the variable isn't very helpful. Therefore, to prevent the accuracy from being unreliable, these variables were removed from the final model.
 
 ## Improvements:
 An ideal improvement would be to work with more stats. The stats used in the model were useful, but having more would produce a more reliable model. 
